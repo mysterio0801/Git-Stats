@@ -1,0 +1,41 @@
+.fa-github-alt {
+    color: black;
+}
+
+.fa-code-fork {
+    color: #17b93f;
+}
+
+.fa-plus-circle {
+    color: #17b93f;
+}
+
+.fa-star {
+    color: #e7e40f;
+}
+
+.fa-trash {
+    color: #d30909;
+}
+.activity-scroll div {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 15px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.activity-scroll div:hover{
+    background-color: #f0f0f0;
+}
+.activity-scroll {
+    overflow-y: scroll;
+    font-size: 80%;
+    padding: 0 10px 0 10px;
+    height: 655px;
+}
+@media(max-width: 800px) {
+    .activity-scroll {
+        overflow-y: scroll;
+        height: 400px;
+    }
+}
+
